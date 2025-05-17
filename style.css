@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn, .btn-outline {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #f9b233;
+  color: #000;
+}
+
+.btn-outline {
+  border: 2px solid #f9b233;
+  color: #f9b233;
+  background: transparent;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: linear-gradient(to right, #1e1e1e 50%, #f9b233 50%);
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-content span {
+  color: #f9b233;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.logo.jpg {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  gap: 40px;
+  background-color: #2a2a2a;
+}
+
+.about-img img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.CREACIONES {
+  padding: 60px;
+  background-color: #1e1e1e;
+  text-align: center;
+}
+
+.CREACIONES h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.CREACIONES-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.CREACIONES-card {
+  padding: 30px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.-CREACIONES h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.-CREACIONES p {
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.blue {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.yellow {
+  background: linear-gradient(135deg, #fddb92, #f9b233);
+}
+
+
+
